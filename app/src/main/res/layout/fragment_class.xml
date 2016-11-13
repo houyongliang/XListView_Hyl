@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hyl.mis.xlistview_hyl.fragment.ClassFragment"
+
+    android:background="#6600ff00">
+
+    <TextView
+        android:id="@+id/tv_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:text="测试"/>
+    <com.hyl.mis.xlistview_hyl.view.PullRecyclerView
+        android:orientation="vertical"
+    android:id="@+id/rcyview_base"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+
+</LinearLayout>

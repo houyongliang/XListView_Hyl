@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hyl.mis.xlistview_hyl.fragment.ShoppingFragment"
+    android:background="#6600ffff">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.hyl.mis.xlistview_hyl.utils.XListView
+        android:id="@+id/xlv_shopping"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</FrameLayout>
