@@ -19,6 +19,7 @@ import com.hyl.mis.xlistview_hyl.fragment.HomeFragment;
 import com.hyl.mis.xlistview_hyl.fragment.ShoppingFragment;
 import com.viewpagerindicator.TabPageIndicator;
 
+import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -52,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         initView();
         initData(num);
         initEvent();
+
 
     }
 

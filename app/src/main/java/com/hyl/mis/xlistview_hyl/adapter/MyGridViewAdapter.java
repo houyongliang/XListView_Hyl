@@ -16,7 +16,13 @@ import butterknife.ButterKnife;
 /**
  * Created by mis on 2016/11/9.
  */
-
+/**
+ * 类名： MyGridViewAdapter
+ * 作用： 
+ * autour: 侯永亮
+ * date: 2016/11/23 20:33 
+ * update: 2016/11/23
+ */
 public class MyGridViewAdapter extends BaseAdapter {
     private List<String> list;
     private Context context;
